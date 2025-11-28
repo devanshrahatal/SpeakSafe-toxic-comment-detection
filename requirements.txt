@@ -1,0 +1,19 @@
+pandas==2.1.1
+numpy==1.25.2
+scikit-learn==1.3.2
+nltk==3.8.1
+streamlit==1.26.0
+
+✅ How to install
+
+
+Run:
+
+pip install -r requirements.txt
+
+
+Then, download the necessary NLTK data (once):
+
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
